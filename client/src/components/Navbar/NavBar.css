@@ -1,0 +1,43 @@
+.navbar {
+	background-image: url("https://static3.bigstockphoto.com/7/9/2/large1500/297327022.jpg");
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: fixed;
+	height: 70px;
+	width: 100%;
+	top: 0;
+	left: 0;
+}
+
+.henry {
+	display: inline-flex;
+	height: 120px;
+}
+
+.logo {
+	width: 40px;
+	height: 40px;
+	margin-bottom: 78px;
+}
+
+.list {
+	list-style-type: none;
+}
+
+.list-item a {
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	text-transform: uppercase;
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	text-decoration: none;
+	margin-right: 1rem;
+	background-color: rgba(22, 22, 22, 0.5);
+}
+
+.list-item a:hover {
+	color: black;
+	border-bottom: 2px solid black;
+	background-color: rgba(255, 255, 255, 0.5);
+}

@@ -1,0 +1,131 @@
+.form-main-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 75px;
+	background-image: url("https://images.creativemarket.com/0.1.0/ps/1198876/1360/1013/m1/fpnw/wm1/kf7fzhwskpjvutbqeyviigcbzlwlyfzjyo3mpatfri3dyfqqlwsrnt8zzh42bmmh-.jpg?1461230713&s=0e59c893787da6b04922233aaaf42f56");
+	min-height: 100vh;
+	user-select: none;
+}
+
+.form-title {
+	font-family: 'Lucida Sans', Arial, sans-serif;
+	text-transform: uppercase;
+	color: black;
+	background-color: rgba(26, 14, 7, 0.4);
+	border-radius: 5px;
+
+}
+
+.form-container {
+	display: flex;
+}
+
+.form-left-container {
+	display: flex;
+	flex-direction: column;
+	margin: 0 5rem;
+}
+
+.form-right-container {
+	display: flex;
+	flex-direction: column;
+	margin: 0 5rem;
+	margin-top: 6.5%;
+}
+
+.form-left-container input {
+	padding: 0 0.5rem;
+	height: 6vh;
+	width: 20vw;
+	border-radius: 10px;
+	margin-bottom: 1rem;
+
+}
+
+.form-left-container textarea {
+	padding: 1rem 0.5rem;
+	height: 8vh;
+	width: 20vw;
+	border-radius: 5px;
+	margin-bottom: 1rem;
+}
+
+.form-buttons {
+	display: flex;
+	justify-content: center;
+	top: 2rem;
+}
+
+.form-diets {
+	display: flex;
+	flex-direction: column;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	text-transform: uppercase;
+	font-size: 20px;
+
+}
+
+.form-diets label {
+	margin: 0.3rem 0;
+	background-color: rgba(26, 14, 7, 0.4);
+	border-radius: 5px;
+}
+
+.btn-create {
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	text-transform: uppercase;
+	font-weight: 500;
+	background-color: white;
+	border-radius: 5px;
+	cursor: pointer;
+	color: #874421;
+	font-size: 1.2em;
+	width: 12vw;
+	height: 7vh;
+	margin-left: 5rem;
+}
+
+.btn-create:hover {
+	background-color: white;
+	color: black;
+	;
+}
+
+.btn-reset {
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	text-transform: uppercase;
+	font-weight: 500;
+	background-color: white;
+	border-radius: 5px;
+	cursor: pointer;
+	color: #874421;
+	font-size: 1.2em;
+	width: 12vw;
+	height: 7vh;
+}
+
+.btn-reset:hover {
+	background-color: white;
+	color: red;
+}
+
+p.danger {
+	font-family: 'Poppins';
+	color: #f55c47;
+	text-align: center;
+	margin: 0;
+	font-size: 0.7rem;
+}
+
+p.pass {
+	display: none;
+}
+
+input.danger {
+	border: 2px solid #f55c47;
+}
+
+textarea.danger {
+	border: 2px solid #f55c47;
+}

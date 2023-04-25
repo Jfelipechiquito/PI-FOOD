@@ -1,0 +1,31 @@
+.input-search {
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	text-transform: uppercase;
+	padding: 0 0.5rem;
+	height: 6vh;
+	width: 20vw;
+	border-radius: 5px;
+}
+
+.btn-search {
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	text-transform: uppercase;
+	background-color: rgba(255, 255, 255, 0.5);
+	border-radius: 5px;
+	cursor: pointer;
+	color: #874421;
+	letter-spacing: .1rem;
+	font-size: 1.2em;
+	width: 8vw;
+	height: 7vh;
+	padding: 0 0.5rem;
+	margin-left: 1rem;
+	line-height: 2;
+	transition: transform 250ms ease;
+}
+
+.btn-search:hover {
+	background-color: rgb(22, 22, 22);
+	color: #874421;
+	transform: scale(1.02);
+}
